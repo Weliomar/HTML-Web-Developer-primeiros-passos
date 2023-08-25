@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação HTML Web Developer</title>
+</head>
+<h1 id="inicio" style="text-align: center; color: blueviolet;">
+    <sup>Primeiros</sup> Passos com <sub> HTML</sub>
+</h1>
+<hr>
+
+<blockquote>
+    <h2>Módulo 1 - Primeiros Passos com HTML</h2>
+
+    <blockquote>
+        <h3><strong><u>Índice</u></strong></h3>
+
+        <ol>
+            <li><a href="#historia">História dos computadores</a></li>
+            <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+            <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+            <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+            <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#referencia">Links de referências</a></li>
+        </ol>
+    </blockquote>
+    <hr>
+    <h2>História dos computadores</h2>
+    <a id="historia"></a>
+    <blockquote>
+        <p>
+            <b>Computadores</b> são bem antigos, mas não como são hoje em dia, foi uma crescente em suas necessidades e
+            assim os computadores foram se adaptando e melhorando até os tempos de hoje e continuam se atualizando.<br>
+            Quando vemos nos dias de hoje o computador cabe em uma mão é muito interessante conhecer a historia e como
+            inicio seu processo, pois quando falamos dos primeiros vemos maquinas gigantes do tamanho de um comodo de
+            casa e
+            que fazia calculos, mas muitas coisas precisava ir la e desconectar algum cabo e conectar em outro lugar e
+            fazendo manualmente essse trabalho de plug in play. <br>
+            <small>
+                A partir daí as tecnologia e inovações foram avançando e uma corrida foi iniciada para ver quem faria
+                algo
+                melhor e mais automatizado, alguns se destacaram mas a corrida ainda continua.
+            </small>
+        </p>
+
+        <h3><u>Abaixo vou falar um pouco da evolução dos computadores.</u></h3>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Zuse_Z1.jpg"
+            alt="computador eletromecânico construído por Konrad Zuse" style="float:left" width="220">
+        <p>
+            O primeiro computador eletromecânico foi construído por <strong>Konrad Zuse (1910–1995)</strong>. Em 1936,
+            esse
+            engenheiro alemão
+            construiu, a partir de relês que executavam os cálculos e dados lidos em fitas perfuradas, o Z1.
+            <br>
+            Zuse tentou
+            vender o computador ao governo alemão, que desprezou a oferta, já que não poderia auxiliar no esforço de
+            guerra.
+            <br>
+            Os projetos de Zuse ficariam parados durante a guerra, dando a chance aos americanos de desenvolver seus
+            computadores.
+            <br>
+            Foi na Segunda Guerra Mundial que realmente nasceram os computadores atuais. A Marinha dos Estados Unidos,
+            em
+            conjunto com a Universidade de Harvard, desenvolveu o <u>computador Harvard Mark I</u>, projetado pelo
+            professor
+            Howard
+            Aiken, com base no calculador analítico de Babbage. O <strong>Mark I </strong> ocupava 120 m³
+            aproximadamente,
+            conseguindo
+            multiplicar dois números de dez dígitos em três segundos.
+            <br>
+            Simultaneamente, e em segredo, o Exército dos Estados Unidos desenvolvia um projeto semelhante, chefiado
+            pelos
+            engenheiros J. <i>Presper Eckert e John Mauchly</i>, cujo resultado foi o primeiro computador a válvulas, o
+            <strong>Eletronic
+                Numeric Integrator And Calculator (ENIAC)</strong> ,[5] capaz de fazer quinhentas multiplicações por
+            segundo. Tendo sido
+            projetado para calcular trajetórias balísticas, o ENIAC foi mantido em segredo pelo governo americano até o
+            final da guerra, quando foi anunciado ao mundo.
+        </p>
+    </blockquote>
+    <h2>O que são <i>Clients</i>?</h2>
+    <a id="clients"></a>
+    <blockquote>
+        <p>
+            Clients são requisições enviado de qualquer dispositivo por exemplo celular ou qualquer tipo de computador
+            para
+            a internet, podemos dizer que seria a parte de front end. Apos enviar a requisição é aguardado um retorno,
+            ou
+            seja, eu envio um formulario e ele vai até o servidor, salva e retorna por exemplo.
+
+        <h3>Características do Cliente</h3>
+        <ul>
+            <li>Inicia pedidos para servidores;</li>
+            <li>Espera por respostas;</li>
+            <li>Recebe respostas;</li>
+            <li>Conecta-se a um pequeno número de servidores de uma só vez;</li>
+            <li>Normalmente interage diretamente com os servidores através de seu software aplicação especifico, que lhe
+                possibilita a comunicação com o servidor;</li>
+            <li>Utiliza recursos da rede.</li>
+        </ul>
+
+        <h3>Navegadores</h3>
+        No site <strong><a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp"
+                target="_blank"><mark>w3schools</mark> </a>
+        </strong> traz com riqueza de detalhes a lista de todos os elementos HTML e seus atributos, juntamente com o
+        suporte
+        do navegador:
+        </p>
+
+        <h3>Aplicação web</h3>
+        <p>Em computação, aplicação web designa, de forma geral, sistemas de informática projetados para utilização
+            através
+            de um navegador, através da internet ou aplicativos desenvolvidos utilizando tecnologias web HTML,
+            JavaScript e
+            CSS.[1]Pode ser executado a partir de um servidor HTTP (Web Host) ou localmente, no dispositivo do usuário.
+
+            Uma aplicação web também é definida em tudo que se é processado em algum servidor, exemplo: quando você
+            entra em
+            um e-commerce a página que você acessa antes de vir até seu navegador é processada em um computador ligado a
+            internet que retorna o processamento das regras de negócio nele contido. Por isso se chama aplicação e não
+            simplesmente site web ou um browser para permitir cookies de terceiros.
+
+            A função do servidor web é receber uma solicitação (requisição) e devolver (resposta) algo para o cliente. O
+            browser permite ao usuário solicitar um recurso e quando o servidor responde a uma solicitação são
+            encontrados
+            recursos como: páginas HTML, figuras e documento PDF que são exibidas depois para o usuário. Geralmente os
+            servidores enviam instruções para o browser escritas em HTML. O HTML diz ao browser como apresentar conteúdo
+            ao
+            usuário web.
+
+            O servidor em si tem alguns recursos, mas por algumas deficiências não consegue processar tudo sozinho como:
+            criações de páginas dinâmicas e o armazenamento de dados em um banco de dados.
+
+            Páginas dinâmicas – Quando a aplicação roda no servidor, este disponibiliza somente páginas estáticas.
+            Porém,
+            para efetuar essa comunicação é necessário o auxílio de uma outra aplicação de ajuda que é passada através
+            de
+            Servlet.
+
+            Armazenar dados no servidor – Para efetuar essa ação o servidor precisa de uma aplicação de apoio (Servlet),
+            fazendo com que o servidor envie esses parâmetros para o Servlet.
+
+            As falhas de segurança podem surgir em diferentes etapas, tais como: análise de requisito; especificação;
+            Implementação. Os riscos de aplicação na vulnerabilidade de uma empresa pode causar impactos.
+
+            O HTTP usa um modelo de solicitações e respostas. Uma solicitação ocorre quando o usuário faz uma
+            solicitação
+            HTTP e o servidor web devolve uma resposta HTTP, sendo que o browser verifica como tratar esse conteúdo. Se
+            a
+            resposta que vem do servidor for uma página HTML, então é inserido na resposta HTTP.
+
+            As diferenças entre as solicitações GET e POST são que enquanto o GET anexa dados do formulário no final da
+            URL
+            o POST inclui dados do formulário no corpo da solicitação.</p>
+    </blockquote>
+    <h2>O que são <i>Servers</i>?</h2>
+    <a id="servers"></a>
+    <blockquote>
+        <p>
+            Dentro de uma infraestrutura de TI, um servidor e seus clientes (computadores, tablets e outros
+            dispositivos)
+            formam uma arquitetura conhecida como “cliente/servidor”, que fornece sistemas de roteamento e acesso
+            centralizado de informações, recursos e dados armazenados dentro de uma rede.
+            <br>
+            Como definição rudimentar, podemos considerar um servidor como qualquer solução tecnológica com capacidade
+            para
+            executar programas de forma centralizada, além de armazenar e compartilhar arquivos, administrar filas de
+            impressão e prestar algum tipo de serviço para vários computadores, através de uma rede local ou remota.
+
+        <h3>Tipos de servidores</h3>
+        <ul>
+            <li><strong>Servidor de aplicação</strong></li>
+            Utilizados para executar aplicações corporativas e atender diversas estações de trabalho de forma
+            simultânea,
+            os servidores de aplicação geralmente necessitam de seu poder de processamento para executar programas que
+            não podem ser executados apenas numa estação de trabalho.
+
+            <li><strong>Servidor de Arquivos</strong></li>
+            Servidores de arquivos são sistemas para armazenar e compartilhar uma grande quantidade de informações entre
+            equipamentos e usuários, mantendo o gerenciamento centralizado.
+
+            <li><strong>Servidor de banco de dados</strong></li>
+            Alguns equipamentos são configurados para potencializar e dar eficiência, de forma dedicada, ao
+            processamento
+            e a transferência de dados entre os demais sistemas computacionais da infraestrutura de TI, como alguns
+            servidores de aplicação e storages.
+
+            <li><strong>Servidor de mídia</strong></li>
+            Também conhecido como media servers, esses equipamentos podem transmitir conteúdo de áudio ou vídeo via
+            internet, através de um processo conhecido como streaming. Netflix, Amazon Prime, Youtube e outras empresas
+            de conteúdo são exemplos de hard users desse tipo de tecnologia.
+
+            <li><strong>Servidor de email</strong></li>
+            Servidores de email são equipamentos configurados para armazenar e transferir e-mails através de redes
+            locais
+            ou via internet.
+
+            <li><strong>Servidor de backup</strong></li>
+            Servidor de backup é um tipo de equipamento que combina as tecnologias de hardware e software para
+            possibilitar a cópia segura e fornecer serviços para a recuperação de dados de outros dispositivos
+            computacionais.
+
+            <li><strong>Servidor FTP</strong></li>
+            Servidor que, através de uma rede TCP/IP, permite download e upload de arquivos via conexão com protocolo
+            FTP
+            (File Transfer Protocol).
+            Muito usado em ambiente cloud, esse tipo de servidor é voltado para armazenamento e troca de arquivos,
+            permitindo o controle das transferências realizadas e autenticação por login e senha, proporcionando um
+            ambiente seguro para troca de informações entre computadores.
+
+            <li><strong>Servidor Proxy</strong></li>
+            Atuando como mediador entre as requisições dos computadores clientes que buscam recursos de outros
+            servidores, como arquivos, páginas web e outros serviços, o servidor proxy filtra as solicitações e
+            determina como as mesmas devem ser manejadas.
+        </ul>
+        </p>
+    </blockquote>
+    <h2>Como é uma estrutura básica de um HTML?</h2>
+    <a id="estrutura-html"></a>
+    <blockquote>
+        <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags
+            <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code> e a instrução
+            <code>&lt;!DOCTYPE&gt;</code>. Esta estrutura está informada em uma documentação que descreve todos os
+            detalhes
+            do
+            HTML, no caso as tags e atributos, e como os navegadores devem considerar e interpretar estas tags, esta
+            documentação
+            é chamada de "especificação do HTML", e através do que está declarado nela que é possível entender se um
+            documento
+            HTML válido. Um documento HTML inválido é carregado pelo navegador, porém em um "<em>modo de
+                compatibilidade</em>",
+            vamos entender melhor sobre isto logo mais.
+        </p>
+        <p>Abaixo, vamos conhecer em detalhes cada uma das tags estruturais obrigatórias:</p>
+        <h3>A tag <code>&lt;html&gt;</code></h3>
+        <p>Na estrutura do nosso documento, antes de começar a colocar o conteúdo, inserimos uma tag
+            <code>&lt;html&gt;</code>.
+            Dentro dessa tag, é necessário declarar outras duas tags: <code>&lt;head&gt;</code> e
+            <code>&lt;body&gt;</code>.
+            Essas
+            duas tags são "irmãs", pois estão no mesmo nível hierárquico em relação à sua tag "mãe", que é
+            <code>&lt;html&gt;</code>.
+        </p>
+
+        <h3>A tag <code>&lt;head&gt;</code></h3>
+        <p>A tag <code>&lt;head&gt;</code> contém informações sobre o documento HTML que são de interesse somente do
+            navegador e
+            para outros serviços da web, e não para as pessoas que vão acessar nosso site. São informações que não serão
+            exibidas
+            diretamente no navegador, também podemos considerar um local onde informamos os metadados sobre a página.
+        </p>
+        <p>A especificação do HTML obriga a presença da tag de conteúdo <code>&lt;title&gt;</code> dentro da
+            <code>&lt;head&gt;</code>, permitindo definir o título do documento, que poder ser visto na <em>barra de
+                título</em>
+            ou <em>aba</em> da janela do navegador. Caso contrário, a página não será um documento HTML válido.
+        </p>
+        <p>Outra configuração muito importante, principalmente em documentos HTML cujo conteúdo é escrito em um idioma
+            como
+            o
+            português, que contém caracteres "especiais" (acentos e cedilha), é a codificação/conjunto de caracteres,
+            chamada de
+            <strong>encoding</strong> ou <strong>charset</strong>.
+        </p>
+        <p>Podemos configurar qual codificação queremos utilizar em nosso documento por meio da configuração de
+            <code>charset</code> na tag <code>&lt;meta&gt;</code>. Um dos valores mais comuns usados hoje em dia é o
+            <strong>UTF-8</strong>, também chamado de <strong>Unicode</strong>. Há outras possibilidades, como o
+            <strong>latin1</strong>, muito usado antigamente.
+        </p>
+        <p>O <strong>UTF-8</strong> é a recomendação atual para encoding na Web por ser amplamente suportada em
+            navegadores
+            e
+            editores de código, além de ser compatível com praticamente todos os idiomas do mundo. É o que usaremos no
+            curso.</p>
+
+        <h3>A tag <code>&lt;body&gt;</code></h3>
+        <p>A tag <code>&lt;body&gt;</code> contém o corpo de um documento HTML, que é exibido pelo navegador em sua
+            janela,
+            ou
+            seja, todo o conteúdo visível do site. É necessário que o <code>&lt;body&gt;</code> tenha ao menos um
+            elemento
+            "filho", ou seja, uma ou mais tags HTML dentro dele.</p>
+
+        <p>Nesse exemplo, usamos a tag <code>&lt;h1&gt;</code>, que indica o título principal da página.</p>
+        <h3>A instrução DOCTYPE</h3>
+        <p>O <code>DOCTYPE</code> não é uma tag HTML, mas uma instrução especial. Ela indica para o navegador qual
+            <strong>versão do HTML</strong> deve ser utilizada para exibir a página. Quando não colocamos essa instrução
+            a
+            página
+            é exibida numa espécie de "<em>modo de compatibilidade</em>" na qual algumas tags e estilizações não
+            funcionam
+            100%
+            corretamente. Principalmente as tags e estilizações mais atuais (lançadas na versão 5 do HTML). Inclusive é
+            possível
+            ver a diferença na folha de estilos padrão que o navegador usa quando não colocamos essa instrução.
+        </p>
+
+        <p>A imagem da esquerda é a página <strong>sem</strong> <code>Doctype</code> e a imagem da direita é a página
+            <strong>com</strong> <code>Doctype</code>. Dá para ver que existe uma leve diferença entre as duas páginas,
+            principalmente com relação aos espaçamentos.
+        </p>
+        <p>Utilizaremos <code>&lt;!DOCTYPE html&gt;</code>, que indica para o navegador a utilização da versão mais
+            recente
+            do
+            HTML - a versão 5, atualmente*.</p>
+        <p>Há muitas possibilidades mais complicadas nessa parte de <code>DOCTYPE</code> que eram usados em versões
+            anteriores
+            do HTML e do XHTML. Hoje em dia, nada disso é mais importante. O recomendado é <strong>sempre usar a última
+                versão do
+                HTML</strong>, usando a declaração de <code>DOCTYPE</code> simples:</p>
+
+        <p>A declaração do DOCTYPE, pode ser escrita toda em maiúsculo ou toda em minúsculo ou com a primeira letra
+            maiúscula:
+            <code>&lt;!DOCTYPE HTML&gt;</code>, <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;!Doctype HTML&gt;</code>,
+            <code>&lt;!Doctype html&gt;</code>, <code>&lt;!doctype html&gt;</code>, <code>&lt;!doctype HTML&gt;</code>.
+            O
+            resultado será o mesmo para todos os casos.
+        </p>
+        <p>*<em>Obs: desde maio de 2019 o desenvolvimento do HTML é mantido pelo W3C (World Wide Web Consortium) <a
+                    href="https://www.w3.org/" target="_blank" rel="noopener">https://www.w3.org/</a>, WHATWG e
+                comunidade
+                de
+                desenvolvedores, e sua especificação é aberta no Github <a href="https://github.com/whatwg/html"
+                    target="_blank" rel="noopener">https://github.com/whatwg/html</a>, e desde este movimento o HTML é
+                considerado um "padrão vivo"
+                (living standard) onde sua versão a partir da 5 é atualizada continuamente</em>.</p>
+    </blockquote>
+
+    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <a id="listas"></a>
+    <blockquote>
+        <h4>Lista ordenada</h4>
+        <p>Uma lista ordenada começa com a tag <span class="lf-badge">&lt;ol&gt;</span> e seus respectivos itens da
+            lista
+            ficam dentro da tag <span class="lf-badge">&lt;li&gt;</span>. Por padrão as listas ordenadas são ordenadas
+            por
+            números, mas também iremos ver como ordena-la por outros métodos.</p>
+        <pre style="white-space:pre;">
+        <code>
+            &lt;ol&gt;
+                &lt;li&gt;Nome&lt;/li&gt;
+                &lt;li&gt;Telefone&lt;/li&gt;
+                &lt;li&gt;Endereço&lt;/li&gt;
+                &lt;li&gt;País&lt;/li&gt;
+            &lt;/ol&gt;
+        </code>
+        </pre>
+        <p>Aparecerá assim no site:</p>
+        <ol>
+            <li>Nome</li>
+            <li>Telefone</li>
+            <li>Endereço</li>
+            <li>País</li>
+        </ol>
+
+        <h4>Listas desordenadas</h4>
+        <p>Já as Listas desordenadas são iniciadas com a tag <span>&lt;ul&gt;</span> e são representadas por pequenos
+            “bullets”, vamos ao código:
+        <pre style="white-space:pre;">
+        <code>
+            &lt;ul&gt;
+                &lt;li&gt;Nome&lt;/li&gt;
+                &lt;li&gt;Telefone&lt;/li&gt;
+                &lt;li&gt;Casa&lt;/li&gt;
+                &lt;li&gt;Estado&lt;/li&gt;
+            &lt;/ul&gt;        
+        </code>
+        </pre>
+        <p>Aparecerá assim no site:</p>
+        <ul>
+            <li>Nome</li>
+            <li>Telefone</li>
+            <li>Casa</li>
+            <li>Estado</li>
+        </ul>
+        </p>
+    </blockquote>
+    <hr>
+
+    <h2>Links de referências</h2>
+    <a id="referencia"></a>
+
+    <p>
+    <h5>Segue abaixo alguns links para aprofundar sobre o assunto, é so clicar e sera direcionado!</h5>
+    </p>
+    <ul>
+        <h6><strong>
+                <li>
+                    <a href="https://pt.wikipedia.org/wiki/Computador" title="As primeiras máquinas de computar"
+                        target="_blank">Para saber mais sobre computadores e suas evolução.</a>
+                </li>
+
+                <li>
+                    <a href="https://www.devmedia.com.br/listas-em-html/23853">Sobre listas ordenadas e não
+                        ordenadas</a>
+                </li>
+
+                <li>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">Sobre
+                        HTML
+                        passo a passo</a>
+                </li>
+
+                <li>
+                    <a href="https://www.controle.net/faq/o-que-sao-servidores">Servidores em computação e seus
+                        tipos</a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Client-Server_overview">Visão
+                        geral do cliente-servidor
+                    </a>
+                </li>
+            </strong></h6>
+    </ul>
+
+    <h2>Observação</h2>
+    <h3>Tags não utilizadas</h3>
+    <p>Não foi utilizado a tag <del><strong><mark><abbr title="Tag não suportada no HTML5">font</abbr></mark></strong></del> pois a mesma não é suportado no HTML5,
+        conforme detalhes no site <a href="https://www.w3schools.com/tags/tag_font.asp"
+            target="_blank">w3schools/tags/font</a>, foi utilizado o style dentro da tag p </p>
+  
+    
+</blockquote>
+<hr>
+<a href="#inicio"><strong>Clique aqui para ir ao inicio.</strong></a>
+</body>
+
+</html>
